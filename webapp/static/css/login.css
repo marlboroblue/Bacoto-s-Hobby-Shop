@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a modern font to the entire document */
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centering the container */
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #f5f5f5;
+    background-color: #4e6bff;
+    border-radius: 8px;
+    border: 2px solid #4e6bff; /* Adjusted border size for the container */
+}
+
+/* Style headings */
+h1 {
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style form labels */
+label {
+    color: #f5f5f5;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style form inputs */
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+.register-button {
+    width: calc(106% - 22px); /* Adjust for padding and border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #4e6bff; /* Use container's border color */
+    background-color: #f5f5f5; /* Adding a background color */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+input[type="submit"] {
+    background-color: #3e4ec5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #293a9e;
+}
+
+/* Register button */
+.register-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #3e4ec5;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.register-button:hover {
+    background-color: #293a9e;
+}

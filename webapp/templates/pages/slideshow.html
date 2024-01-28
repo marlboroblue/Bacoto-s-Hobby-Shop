@@ -1,0 +1,19 @@
+{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/slideshow.css' %}">
+</head>
+<div class="container">
+    <div class="slideshow-container">
+        <div class="slides">
+            <img src="{% static 'images/doubleeagle.jpg' %}" class="slide">
+            <img src="{% static 'images/jinggong.jpg' %}" class="slide">
+            <img src="{% static 'images/tokyomarui.jpg' %}" class="slide">
+            <img src="{% static 'images/cyma.jpg' %}" class="slide">
+            <img src="{% static 'images/umarex.jpg' %}" class="slide">
+        </div>
+    </div>
+</div>
+    <script src="{% static 'js/slideshow.js' %}"></script>
+    {% endblock %}

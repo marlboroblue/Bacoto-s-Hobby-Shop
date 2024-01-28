@@ -1,0 +1,15 @@
+.slideshow-container {
+  width: 70%;
+  margin: 80px auto 20px; /* Increased margin-top to 200px */
+  text-align: center;
+}
+    .slides {
+      position: relative;
+      display: inline-block; /* Ensures the container shrinks to fit the content */
+    }
+    .slide {
+      display: none;
+      max-width: 100%; /* Adjust the maximum width of the images */
+      height: auto; /* Maintains aspect ratio */
+      /* Other styles for your images */
+    }
